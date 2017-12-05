@@ -1,0 +1,25 @@
+body {
+    background: #fff;
+}
+
+#login h1 a, .login h1 a {
+    background-image: url("pp-login-logo.png"); /* Update to client logo. Must be no bigger than 80px x 80px */
+    height: 80px;
+    width: 65.45px;
+    background-size: 65.45px 80px;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+
+.login #login_error {
+    border-left-color: #fff;
+}
+
+.login #login_error, .login .message {
+    background-color: #0f0;
+}
+
+.login form {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .21);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .21);
+}
